@@ -2,5 +2,12 @@
   "files.exclude": {
     ".hugo_build.lock": true,
     "public/": true
+  },
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
   }
 }
