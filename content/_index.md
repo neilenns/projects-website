@@ -1,17 +1,15 @@
 ---
-title: My Site
-toc: false
+title: Neil's projects
+toc: true
 ---
 
-This is the landing page.
+Documentation for various projects I've written.
 
-## Explore
+## VATSIM projects
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
+{{< card link="docs" title="vATIS for Stream Deck" subtitle="Actions for controlling vATIS with your Stream Deck" icon="book-open" >}}
+{{< card link="ptr-vatis" title="vATIS for PowerToys Run" subtitle="Quickly open a vATIS profile with PowerToys Run" icon="book-open" >}}
+{{< card link="streamdeck-trackaudio" title="TrackAudio for Stream Deck" subtitle="Actions for controlling TrackAudio with your Stream Deck" icon="book-open" >}}
+{{< card link="ptr-crc" title="CRC for PowerToys Run" subtitle="Quickly open a CRC profile with PowerToys Run" icon="book-open" >}}
 {{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
