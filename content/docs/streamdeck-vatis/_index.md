@@ -20,4 +20,4 @@ This Stream Deck plugin provides actions to interact with [vATIS](https://vatis.
 
 After installation the plugin actions are available under the vATIS category:
 
-![Screenshot of the Stream Deck profile UI with the vATIS category open](images/streamdeck-category.png)
+![Screenshot of the Stream Deck profile UI with the vATIS category open](streamdeck-category.png)
