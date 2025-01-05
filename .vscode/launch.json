@@ -6,7 +6,7 @@
       "request": "launch",
       "type": "msedge",
       "preLaunchTask": "Run Hugo Server",
-      "url": "http://localhost:1313",
+      "url": "http://localhost:1313/docs/streamdeck-vatis/atis-letter/",
       "webRoot": "${workspaceFolder}"
     }
   ]

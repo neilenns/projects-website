@@ -1,0 +1,9 @@
+<figure class="{{ .Get "class" | default "streamdeck-action" }}">
+  <img src="{{ .Get "src" }}" 
+       alt="{{ .Get "alt" | default "Image" }}" 
+       width="{{ .Get "width" | default "96" }}" 
+       height="{{ .Get "height" | default "96" }}" />
+  {{ if .Get "caption" }}
+  <figcaption>{{ .Get "caption" }}</figcaption>
+  {{ end }}
+</figure>
