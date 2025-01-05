@@ -3,7 +3,7 @@ title: ATIS letter
 next: vatis-status
 ---
 
-The ATIS letter action shows the current AITS information for the specified station. You can use it to:
+The ATIS letter action shows the current ATIS information for the specified station. You can use it to:
 
 - See the current ATIS letter for a station
 - See the current altimeter for a station
@@ -26,11 +26,11 @@ To configure the action to show the ATIS for a specific station configure the fo
 | Station   | The station to display. This must match the station name shown in vATIS.                                                                          | `KPDX`     |
 | ATIS type | The station type. This will usually be `Combined` unless the ATIS is at an airport that publishes separate `Arrival` and `Departure` information. | `Combined` |
 
-![Screnshot of an ATIS letter action configuration, with the title and callsign set to KPDX and the type set to Combined.](images/atis-letter.png)
+![Screenshot of an ATIS letter action configuration, with the title and callsign set to KPDX and the type set to Combined.](images/atis-letter.png)
 
 ## States
 
-By default the pressure displays in white. For pressure reported in InHg, if the value falls below 29.92 the value will show in red as a reminder that FL180 (or FL190, depending on the altimeter value) are ununusable.
+By default the pressure displays in white. For pressure reported in InHg, if the value falls below 29.92 the value will show in red as a reminder that FL180 (or FL190, depending on the altimeter value) are unusable.
 
 ## Interactions
 
@@ -49,7 +49,7 @@ The action supports both short and long press.
 | Station     | The name of the station you want to display status for. Required.         |                                                                                                                                            |
 | Type        | The type of the station.                                                  | `Combined`                                                                                                                                 |
 | Current     | The image to display when the ATIS letter shown is current. Optional.     | ![Black background, white text](images/atis-connected.png) ![Black background, white text, red text for pressure](images/atis-warning.png) |
-| Unavailable | The iamge to display when there is no connection to vATIS. Optional.      | ![Black background, "ATIS" for letter, grey text](images/atis-notconnected.png)                                                            |
+| Unavailable | The image to display when there is no connection to vATIS. Optional.      | ![Black background, "ATIS" for letter, grey text](images/atis-notconnected.png)                                                            |
 | Updated     | The image to display when the ATIS letter updated to a new one. Optional. | ![Orange background, white text](images/atis-updated.png)                                                                                  |
 
 The default display automatically includes the station name, ATIS letter, and altimeter. When specifying
