@@ -1,6 +1,7 @@
 ---
 title: Neil's projects
 toc: false
+description: Documentation for various Stream Deck and PowerToys Run plugins
 ---
 
 Documentation for various projects I've written.
