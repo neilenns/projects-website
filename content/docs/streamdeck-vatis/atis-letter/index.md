@@ -26,7 +26,7 @@ To configure the action to show the ATIS for a specific station configure the fo
 | Station   | The station to display. This must match the station name shown in vATIS.                                                                          | `KPDX`     |
 | ATIS type | The station type. This will usually be `Combined` unless the ATIS is at an airport that publishes separate `Arrival` and `Departure` information. | `Combined` |
 
-![Screenshot of an ATIS letter action configuration, with the title and callsign set to KPDX and the type set to Combined.](atis-letter.png)
+![Screenshot of an ATIS letter action configuration, with the title and callsign set to KPDX and the type set to Combined.](configuration.png)
 
 ## States
 
