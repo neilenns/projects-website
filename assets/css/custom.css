@@ -2,8 +2,12 @@
   border: 1px solid #d3d3d3; /* Light gray border */
   border-radius: 4px;       /* Optional: slightly rounded corners */
   padding: 5px;             /* Optional: spacing between the image and the border */
-  display: inline-block;    /* Keeps the figure inline with other elements */
   margin: 2px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
 }
 
 .streamdeck-action-svg {

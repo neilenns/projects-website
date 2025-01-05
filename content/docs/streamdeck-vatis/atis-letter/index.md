@@ -13,8 +13,18 @@ The ATIS letter action shows the current ATIS information for the specified stat
 - Clear the new ATIS notification for all stations
 
 {{<actions>}}
-{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="false" pressureValue="2998" isNewAtis="false" formattedValue="A2998" pressureUnit="MercuryInch" letter="B" caption="This is an ATIS letter" >}}
-{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="2991" isNewAtis="true" formattedValue="A2991" pressureUnit="MercuryInch" letter="C" caption="This is an ATIS letter" >}}
+<!-- Unavailable -->
+{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="false" caption="ATIS unavailable" >}}
+<!-- Available, not published -->
+{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="false" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" caption="ATIS not published" >}}
+	<!-- Available -->
+{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" caption="ATIS published" >}}
+<!-- Available, pressure warning -->
+{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="2990" isNewAtis="false" formattedValue="A2990" pressureUnit="MercuryInch" letter="C" caption="Pressure warning" >}}
+<!-- Available, published, new -->
+{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="true" isNewAtis="true" pressureValue="3012" formattedValue="A3012" pressureUnit="MercuryInch" letter="D" caption="New ATIS published" >}}
+<!-- Available, published, new, pressure warning -->
+{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="true" isNewAtis="true" pressureValue="2990" formattedValue="A2990" pressureUnit="MercuryInch" letter="D" caption="New ATIS, pressure warning" >}}
 {{</actions>}}
 
 ## Prerequisites

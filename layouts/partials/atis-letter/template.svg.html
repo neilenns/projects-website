@@ -9,12 +9,12 @@
       .altimeterText-{{ $uniqueID }}  {
       	{{- if (eq $.pressureUnit "MercuryInch")}}
       		{{- if (le (int $.pressureValue) 2991 )}}
-      			fill: {{if $.isConnected}}red{{else}}grey{{end}};
+      			fill: {{if eq $.isConnected "true"}}red{{else}}grey{{end}};
       		{{- else}}
-      			fill: {{if $.isConnected}}white{{else}}grey{{end}};
+      			fill: {{if eq $.isConnected "true"}}white{{else}}grey{{end}};
       		{{- end}}
       	{{- else}}
-      		fill: {{if $.isConnected}}white{{else}}grey{{end}};
+      		fill: {{if eq $.isConnected "true"}}white{{else}}grey{{end}};
       	{{- end}}
       }
       .background-{{ $uniqueID }}  {
