@@ -12,7 +12,8 @@
         "mhutchie.git-graph",
         "esbenp.prettier-vscode",
         "tamasfe.even-better-toml",
-        "budparr.language-hugo-vscode"
+        "budparr.language-hugo-vscode",
+        "yzhang.markdown-all-in-one"
       ]
     }
   },
