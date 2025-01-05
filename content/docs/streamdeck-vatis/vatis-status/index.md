@@ -8,10 +8,6 @@ The vATIS status action shows the state of the connection to the vATIS applicati
 - Verify your Stream Deck is connected to vATIS
 - Force all vATIS actions to refresh their state
 
-## Prerequisites
-
-To use this action you must have [vATIS](https://vatis.app) running.
-
 ## Basic configuration
 
 This action does not require any configuration to use.
