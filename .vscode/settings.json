@@ -3,6 +3,9 @@
     ".hugo_build.lock": true,
     "public/": true
   },
+  "files.associations": {
+    "*.svg.html": "plaintext"
+  },
   "[markdown]": {
     "editor.quickSuggestions": {
       "comments": "on",
@@ -20,6 +23,10 @@
     "streamdeck",
     "trackaudio",
     "vatis",
-    "VATSIM"
-  ]
+    "VATSIM",
+    "Verdana"
+  ],
+  "cSpell.enabledFileTypes": {
+    ".svg.html": false
+  }
 }

@@ -12,16 +12,10 @@ The ATIS letter action shows the current ATIS information for the specified stat
 - Clear the new ATIS notification for a station
 - Clear the new ATIS notification for all stations
 
-{{< actions >}}
-{{< action src="atisletter.svg" alt="ATIS letter" caption="This is an ATIS letter" >}}
-{{< action src="atisletter.svg" alt="ATIS letter" caption="This is an ATIS letter" >}}
-{{< action src="atisletter.svg" alt="ATIS letter" caption="This is an ATIS letter" >}}
-{{< action src="atisletter.svg" alt="ATIS letter" caption="This is an ATIS letter" >}}
-{{< action src="atisletter.svg" alt="ATIS letter" caption="This is an ATIS letter" >}}
-{{< action src="atisletter.svg" alt="ATIS letter" caption="This is an ATIS letter" >}}
-{{< action src="atisletter.svg" alt="ATIS letter" caption="This is an ATIS letter" >}}
-{{< action src="atisletter.svg" alt="ATIS letter" caption="This is an ATIS letter" >}}
-{{< /actions >}}
+{{<actions>}}
+{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="false" pressureValue="2998" isNewAtis="false" formattedValue="A2998" pressureUnit="MercuryInch" letter="B" caption="This is an ATIS letter" >}}
+{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="2991" isNewAtis="true" formattedValue="A2991" pressureUnit="MercuryInch" letter="C" caption="This is an ATIS letter" >}}
+{{</actions>}}
 
 ## Prerequisites
 

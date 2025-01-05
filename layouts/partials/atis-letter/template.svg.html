@@ -1,0 +1,60 @@
+{{ $uniqueID := now.UnixNano }}
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" width="144" height="144">
+  <defs>
+    <style>
+      .displayText-{{ $uniqueID }} {
+      	fill: {{if eq $.isConnected "true"}}white{{else}}grey{{end}};
+      }
+      .altimeterText-{{ $uniqueID }}  {
+      	{{- if (eq $.pressureUnit "MercuryInch")}}
+      		{{- if (le (int $.pressureValue) 2991 )}}
+      			fill: {{if $.isConnected}}red{{else}}grey{{end}};
+      		{{- else}}
+      			fill: {{if $.isConnected}}white{{else}}grey{{end}};
+      		{{- end}}
+      	{{- else}}
+      		fill: {{if $.isConnected}}white{{else}}grey{{end}};
+      	{{- end}}
+      }
+      .background-{{ $uniqueID }}  {
+      	fill: {{if eq $.isNewAtis "true"}}#e96518{{else}}black{{end}};
+      }
+    </style>
+  </defs>
+
+  <rect class="background-{{ $uniqueID }}" width="144" height="144" />
+  <text
+    class="displayText-{{ $uniqueID }}"
+    x="72"
+    y="36"
+    font-family="Verdana"
+    font-weight="bold"
+    font-size="22"
+    text-anchor="middle"
+  >
+    {{$.title}}
+  </text>
+  <text
+    class="displayText-{{ $uniqueID }}"
+    x="72"
+    y="92"
+    font-family="Verdana"
+    font-weight="bold"
+    font-size="50"
+    text-anchor="middle"
+  >
+    {{if $.letter}}{{$.letter}}{{else}}ATIS{{end}}
+  </text>
+  <text
+    class="altimeterText-{{ $uniqueID }}"
+    x="72"
+    y="130"
+    font-family="Verdana"
+    font-weight="bold"
+    font-size="22"
+    text-anchor="middle"
+  >
+    {{$.pressureValue}}
+  </text>
+</svg>

@@ -5,3 +5,7 @@
   display: inline-block;    /* Keeps the figure inline with other elements */
   margin: 2px;
 }
+
+.streamdeck-action-svg {
+  border-radius: 20px;       /* Optional: slightly rounded corners */
+}
