@@ -1,6 +1,6 @@
 ---
 title: Neil's projects
-toc: true
+toc: false
 ---
 
 Documentation for various projects I've written.
@@ -8,8 +8,8 @@ Documentation for various projects I've written.
 ## Stream Deck plugins
 
 {{< cards >}}
-{{< card link="docs/streamdeck-trackaudio" title="TrackAudio" subtitle="Actions for controlling TrackAudio with your Stream Deck" icon="book-open">}}
-{{< card link="docs/streamdeck-vatis" title="vATIS" subtitle="Actions for controlling vATIS with your Stream Deck" icon="book-open" >}}
+{{< card link="docs/streamdeck-trackaudio" title="TrackAudio" subtitle="Control TrackAudio with your Stream Deck" icon="book-open">}}
+{{< card link="docs/streamdeck-vatis" title="vATIS" subtitle="Control vATIS with your Stream Deck" icon="book-open" >}}
 {{< /cards >}}
 
 ## PowerToys Run plugins
