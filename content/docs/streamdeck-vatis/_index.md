@@ -1,6 +1,6 @@
 ---
 title: vATIS actions for Stream Deck
-next: atis-letter
+next: /docs/streamdeck-vatis/atis-letter
 ---
 
 > [!IMPORTANT]
@@ -11,7 +11,7 @@ next: atis-letter
 This Stream Deck plugin provides actions to interact with [vATIS](https://vatis.app/) running on your local machine.
 [Download the plugin from the releases page](https://github.com/neilenns/streamdeck-vatis/releases/latest).
 
-## Action descriptions
+## Actions
 
 | Action                        | Description                                                          |
 | ----------------------------- | -------------------------------------------------------------------- |
