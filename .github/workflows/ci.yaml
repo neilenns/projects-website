@@ -8,9 +8,10 @@ on:
 env:
   HUGO_VERSION: 0.140.2
 
+# From https://github.com/aaseper/portfolio-hugo-ci-cd/blob/main/.github/workflows/deploy.yml
 jobs:
   build:
-    name: "Build"
+    name: "Build site"
     runs-on: ubuntu-latest
 
     steps:
