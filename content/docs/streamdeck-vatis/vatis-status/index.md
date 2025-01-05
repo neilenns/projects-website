@@ -1,6 +1,6 @@
 ---
 title: vATIS status
-prev: atis-letter
+prev: /docs/streamdeck-vatis/atis-letter
 ---
 
 The vATIS status action shows the state of the connection to the vATIS application. You can use it to:
