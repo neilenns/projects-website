@@ -9,5 +9,17 @@
       "strings": "on",
       "other": "on"
     }
-  }
+  },
+  "cSpell.words": [
+    "ATIS",
+    "callsign",
+    "discordtimestamp",
+    "KHIO",
+    "KPDX",
+    "KUAO",
+    "streamdeck",
+    "trackaudio",
+    "vatis",
+    "VATSIM"
+  ]
 }

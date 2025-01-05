@@ -18,7 +18,7 @@ This action does not require any configuration to use.
 
 ## States
 
-Colourful sun and cloud means connected. Sad grey cloud means not connected.
+Colorful sun and cloud means connected. Sad grey cloud means not connected.
 
 ## Interactions
 
