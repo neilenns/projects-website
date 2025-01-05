@@ -1,7 +1,7 @@
 {{ $filePath := .Get "src" }}
-<figure class="{{ .Get "class" | default "streamdeck-action" }}">
+<figure class="{{ .Get "class" | default "streamdeck-action-figure" }}">
   {{ $svgContent := partial $filePath .Params }}
-  {{ $svgContent = $svgContent | replaceRE "<svg" "<svg class=\"streamdeck-action-svg\"" }}
+  {{ $svgContent = $svgContent | replaceRE "<svg" "<svg class=\"streamdeck-action-figure-svg\"" }}
   {{ $svgContent | safeHTML }}
   {{ if .Get "caption" }}
   <figcaption>{{ .Get "caption" }}</figcaption>

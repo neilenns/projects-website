@@ -12,21 +12,6 @@ The ATIS letter action shows the current ATIS information for the specified stat
 - Clear the new ATIS notification for a station
 - Clear the new ATIS notification for all stations
 
-{{<actions>}}
-<!-- Unavailable -->
-{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="false" caption="ATIS unavailable" >}}
-<!-- Available, not published -->
-{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="false" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" caption="ATIS not published" >}}
-	<!-- Available -->
-{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" caption="ATIS published" >}}
-<!-- Available, pressure warning -->
-{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="2990" isNewAtis="false" formattedValue="A2990" pressureUnit="MercuryInch" letter="C" caption="Pressure warning" >}}
-<!-- Available, published, new -->
-{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="true" isNewAtis="true" pressureValue="3012" formattedValue="A3012" pressureUnit="MercuryInch" letter="D" caption="New ATIS published" >}}
-<!-- Available, published, new, pressure warning -->
-{{< action src="atis-letter/template.svg.html" title="KPDX" isConnected="true" isNewAtis="true" pressureValue="2990" formattedValue="A2990" pressureUnit="MercuryInch" letter="D" caption="New ATIS, pressure warning" >}}
-{{</actions>}}
-
 ## Prerequisites
 
 To use this action you must have [vATIS](https://vatis.app) running and you must be connected to VATSIM as either a controller or an observer. The action can show current the ATIS for any station in the active vATIS profile.
@@ -45,6 +30,33 @@ To configure the action to show the ATIS for a specific station configure the fo
 
 ## States
 
+{{<action-figures>}}
+
+<!-- Unavailable -->
+
+{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="false" caption="ATIS unavailable" >}}
+
+<!-- Available, not published -->
+
+{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="false" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" caption="ATIS not published" >}}
+
+<!-- Available -->
+
+{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" caption="ATIS published" >}}
+
+<!-- Available, pressure warning -->
+
+{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="2990" isNewAtis="false" formattedValue="A2990" pressureUnit="MercuryInch" letter="C" caption="Pressure warning" >}}
+
+<!-- Available, published, new -->
+
+{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="true" isNewAtis="true" pressureValue="3012" formattedValue="A3012" pressureUnit="MercuryInch" letter="D" caption="New ATIS published" >}}
+
+<!-- Available, published, new, pressure warning -->
+
+{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="true" isNewAtis="true" pressureValue="2990" formattedValue="A2990" pressureUnit="MercuryInch" letter="D" caption="New ATIS, pressure warning" >}}
+{{</action-figures>}}
+
 By default the pressure displays in white. For pressure reported in InHg, if the value falls below 29.92 the value will show in red as a reminder that FL180 (or FL190, depending on the altimeter value) are unusable.
 
 ## Interactions
@@ -58,14 +70,14 @@ The action supports both short and long press.
 
 ## Settings reference
 
-| Setting     | Description                                                               | Default                                                                                                                      |
-| ----------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Title       | The title to show on the action. Optional.                                |                                                                                                                              |
-| Station     | The name of the station you want to display status for. Required.         |                                                                                                                              |
-| Type        | The type of the station.                                                  | `Combined`                                                                                                                   |
-| Current     | The image to display when the ATIS letter shown is current. Optional.     | ![Black background, white text](atis-connected.png) ![Black background, white text, red text for pressure](atis-warning.png) |
-| Unavailable | The image to display when there is no connection to vATIS. Optional.      | ![Black background, "ATIS" for letter, grey text](atis-notconnected.png)                                                     |
-| Updated     | The image to display when the ATIS letter updated to a new one. Optional. | ![Orange background, white text](atis-updated.png)                                                                           |
+| Setting     | Description                                                     | Required? |
+| ----------- | --------------------------------------------------------------- | :-------: |
+| Title       | The title to show on the action.                                |    No     |
+| Station     | The name of the station you want to display status for.         |    Yes    |
+| Type        | The type of the station.                                        |    Yes    |
+| Current     | The image to display when the ATIS letter shown is current.     |    No     |
+| Unavailable | The image to display when there is no connection to vATIS.      |    No     |
+| Updated     | The image to display when the ATIS letter updated to a new one. |    No     |
 
 The default display automatically includes the station name, ATIS letter, and altimeter. When specifying
 custom state images the following advanced settings can be used to display text on the action:
