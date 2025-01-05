@@ -70,27 +70,27 @@ To save time when connecting to the network the station status action can be con
 
 <!-- activeComms -->
 
-{{<action-figure src="station-status/template.svg.html" state="activeComms" caption="Active communication">}}
+{{<action-figure src="station-status/template.svg.html" state="activeComms" title="KPDX" caption="Active communication">}}
 
 <!-- blocking -->
 
-{{<action-figure src="station-status/template.svg.html" state="blocking" caption="Blocked transmission">}}
+{{<action-figure src="station-status/template.svg.html" state="blocking" title="KPDX" caption="Blocked transmission">}}
 
 <!-- listening -->
 
-{{<action-figure src="station-status/template.svg.html" state="listening" caption="Listening">}}
+{{<action-figure src="station-status/template.svg.html" state="listening" title="KPDX" caption="Listening">}}
 
 <!-- muted -->
 
-{{<action-figure src="station-status/template.svg.html" state="muted" caption="Muted">}}
+{{<action-figure src="station-status/template.svg.html" state="muted" title="KPDX" caption="Muted">}}
 
 <!-- notListening -->
 
-{{<action-figure src="station-status/template.svg.html" state="notListening" caption="Not listening">}}
+{{<action-figure src="station-status/template.svg.html" state="notListening" title="KPDX" caption="Not listening">}}
 
 <!-- unavailable -->
 
-{{<action-figure src="station-status/template.svg.html" state="unavailable" caption="Unavailable">}}
+{{<action-figure src="station-status/template.svg.html" state="unavailable" title="KPDX" caption="Unavailable">}}
 
 {{</action-figures>}}
 
