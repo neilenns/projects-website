@@ -4,13 +4,11 @@ toc: false
 description: Documentation for various Stream Deck and PowerToys Run plugins
 ---
 
-Documentation for various projects I've written.
-
 ## Stream Deck plugins
 
 {{< cards >}}
-{{< card link="docs/streamdeck-trackaudio" title="TrackAudio" subtitle="Control TrackAudio with your Stream Deck" icon="book-open">}}
-{{< card link="docs/streamdeck-vatis" title="vATIS" subtitle="Control vATIS with your Stream Deck" icon="book-open" >}}
+{{< card link="docs/streamdeck-trackaudio" title="TrackAudio" image="card-images/trackaudio-card.png" subtitle="Control TrackAudio with your Stream Deck" icon="book-open">}}
+{{< card link="docs/streamdeck-vatis" image="card-images/vatis-card.png" title="vATIS" subtitle="Control vATIS with your Stream Deck" icon="book-open" >}}
 {{< /cards >}}
 
 ## PowerToys Run plugins
