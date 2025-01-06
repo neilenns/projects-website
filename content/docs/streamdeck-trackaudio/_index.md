@@ -9,7 +9,7 @@ og_image: ogimage/streamdeck-trackaudio.png
 
 This Stream Deck plugin provides actions to interact with TrackAudio. [Get the plugin from the Elgato marketplace](https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea). Need inspiration for how to use these actions? Check out the [examples](examples/).
 
-![Screenshot a Stream Deck profile with buttons for stations, current ATIS letter, a hotline, and a push-to-talk button](button-example.png)
+![Screenshot a Stream Deck profile with buttons for stations, current ATIS letter, a hotline, and a push-to-talk button](example.png)
 
 ## Actions
 
