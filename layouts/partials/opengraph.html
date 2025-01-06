@@ -1,3 +1,2 @@
-{{- if .Params.og_image }}
-<meta property="og:image" content="{{.Site.BaseURL }}ogimage/{{ .Params.og_image }}"/>
-{{ end }}
+{{- if .Params.og_image }} <meta property="og:image" content="{{ (printf
+"ogimage/%s" .Params.og_image) | relURL }}"/> {{ end }}
