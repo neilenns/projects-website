@@ -1,5 +1,6 @@
 ---
 title: vATIS actions for Stream Deck
+description: Actions to control vATIS from your favorite Stream Deck device
 next: /docs/streamdeck-vatis/atis-letter
 ---
 
