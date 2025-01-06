@@ -1,6 +1,7 @@
 ---
 title: Main volume
 description: Controls app volume in TrackAudio with Stream Deck dials
+og_image: ogimage/streamdeck-trackaudio.png
 prev: /docs/streamdeck-trackaudio/hotline
 next: /docs/streamdeck-trackaudio/push-to-talk
 weight: 30

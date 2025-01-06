@@ -1,6 +1,7 @@
 ---
 title: TrackAudio actions for Stream Deck
 description: Actions to control TrackAudio from your favorite Stream Deck device
+og_image: ogimage/streamdeck-trackaudio.png
 ---
 
 > [!IMPORTANT]
@@ -11,7 +12,6 @@ This Stream Deck plugin provides actions to interact with TrackAudio. [Get the p
 ![Screenshot a Stream Deck profile with buttons for stations, current ATIS letter, a hotline, and a push-to-talk button](button-example.png)
 
 ## Actions
-
 
 | Action                                 | Description                                                                                                                                                                                                  |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
