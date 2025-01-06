@@ -2,6 +2,7 @@
 title: vATIS status
 description: Displays connection status to vATIS on Stream Deck keys
 prev: /docs/streamdeck-vatis/atis-letter
+og_image: streamdeck-vatis.png
 ---
 
 The vATIS status action shows the state of the connection to the vATIS application. You can use it to:
