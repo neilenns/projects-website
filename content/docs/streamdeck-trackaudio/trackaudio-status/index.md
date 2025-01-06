@@ -1,6 +1,7 @@
 ---
 title: TrackAudio status
 description: Displays connection status to TrackAudio on Stream Deck keys
+og_image: ogimage/streamdeck-trackaudio.png
 prev: /docs/streamdeck-trackaudio/station-volume
 next: /docs/streamdeck-trackaudio/examples
 weight: 70

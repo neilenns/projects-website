@@ -1,6 +1,7 @@
 ---
 title: Examples
 prev: /docs/streamdeck-trackaudio/trackaudio-status
+og_image: ogimage/streamdeck-trackaudio.png
 weight: 80
 ---
 
