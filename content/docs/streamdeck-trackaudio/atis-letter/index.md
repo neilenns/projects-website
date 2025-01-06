@@ -1,5 +1,6 @@
 ---
 title: ATIS letter
+description: Displays the current ATIS letter for a station from VATSIM on Stream Deck keys
 next: /docs/streamdeck-trackaudio/hotline
 weight: 10
 ---

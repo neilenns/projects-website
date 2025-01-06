@@ -1,5 +1,6 @@
 ---
 title: TrackAudio actions for Stream Deck
+description: Actions to control TrackAudio from your favorite Stream Deck device.
 ---
 
 > [!IMPORTANT]

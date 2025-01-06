@@ -1,5 +1,6 @@
 ---
 title: Hotline
+description: Toggles transmit between two stations in TrackAudio with Stream Deck keys
 prev: /docs/streamdeck-trackaudio/atis-letter
 next: /docs/streamdeck-trackaudio/push-to-talk
 weight: 20

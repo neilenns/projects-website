@@ -1,5 +1,6 @@
 ---
 title: Station status
+description: Displays station state and interacts with stations in TrackAudio with Stream Deck keys
 prev: /docs/streamdeck-trackaudio/push-to-talk
 next: /docs/streamdeck-trackaudio/station-volume
 weight: 50

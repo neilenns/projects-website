@@ -1,5 +1,6 @@
 ---
 title: ATIS letter
+description: Displays the current ATIS letter for a station from VATIS on Stream Deck keys
 next: vatis-status
 ---
 

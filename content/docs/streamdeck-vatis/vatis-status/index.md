@@ -1,5 +1,6 @@
 ---
 title: vATIS status
+description: Displays connection status to vATIS on Stream Deck keys
 prev: /docs/streamdeck-vatis/atis-letter
 ---
 
