@@ -2,6 +2,7 @@
 title: ATIS letter
 description: Displays the current ATIS letter for a station from VATIS on Stream Deck keys
 next: vatis-status
+og_image: streamdeck-vatis.png
 ---
 
 The ATIS letter action shows the current ATIS information for the specified station. You can use it to:
