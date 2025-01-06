@@ -1,5 +1,6 @@
 ---
 title: Station volume
+description: Controls station volume in TrackAudio with Stream Deck dials
 prev: /docs/streamdeck-trackaudio/station-status
 next: /docs/streamdeck-trackaudio/trackaudio-status
 weight: 60

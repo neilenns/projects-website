@@ -1,5 +1,6 @@
 ---
 title: Push to talk
+description: Triggers push to talk in TrackAudio with Stream Deck keys
 prev: /docs/streamdeck-trackaudio/main-volume
 next: /docs/streamdeck-trackaudio/station-status
 weight: 40
