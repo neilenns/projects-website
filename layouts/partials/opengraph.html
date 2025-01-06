@@ -1,2 +1,7 @@
-{{- if .Params.og_image }} <meta property="og:image" content="{{ (printf
-"ogimage/%s" .Params.og_image) | relURL }}"/> {{ end }}
+{{- if .Params.og_image }}
+    <meta property="og:image:width" content="720"/>
+    <meta property="og:image:height" content="520"/>
+    <meta property="og:image" content="{{ (printf "ogimage/%s" .Params.og_image) | relURL }}"/>
+    <meta property="twitter:image" content="{{ (printf "ogimage/%s" .Params.og_image) | relURL }}"/>
+    <meta name="twitter:card" content="summary_large_image">
+{{ end }}
