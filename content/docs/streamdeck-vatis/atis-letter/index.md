@@ -89,7 +89,7 @@ custom state images the following advanced settings can be used to display text 
 
 | Setting        | Description                        | Default |
 | -------------- | ---------------------------------- | ------- |
-| Show altimeter | Shows the altimeter on the action. | off     |
-| Show letter    | Shows the letter on the action.    | off     |
-| Show title     | Shows the title on the action.     | off     |
-| Show wind      | Shows the wind on the action.      | off     |
+| Show altimeter | Shows the altimeter on the action. | `off`   |
+| Show letter    | Shows the letter on the action.    | `off`   |
+| Show title     | Shows the title on the action.     | `off`   |
+| Show wind      | Shows the wind on the action.      | `off`   |
