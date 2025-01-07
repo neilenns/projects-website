@@ -9,7 +9,7 @@ og_image: ogimage/streamdeck-trackaudio.png
 > [!IMPORTANT]
 > This plugin requires [TrackAudio beta 1.3.0-beta.1](https://github.com/pierr3/TrackAudio/releases/tag/1.3.0-beta.1) or later. It will not work with earlier versions of TrackAudio.
 
-This Stream Deck plugin provides actions to interact with TrackAudio. Need inspiration for how to use these actions? Check out the [examples](examples/).
+This Stream Deck plugin provides actions to interact with TrackAudio.
 
 ![Screenshot a Stream Deck profile with buttons for stations, current ATIS letter, a hotline, and a push-to-talk button](example.png)
 
