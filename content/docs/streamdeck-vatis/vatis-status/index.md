@@ -30,8 +30,6 @@ This action does not require any configuration to use.
 
 ## Interactions
 
-The action supports long press.
-
 | Interaction | Description                        |
 | ----------- | ---------------------------------- |
 | Long press  | Refreshes all ATIS letter actions. |
