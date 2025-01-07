@@ -31,12 +31,12 @@ The station status action is useful in a wide range of situations. The following
 
 To configure the action to show the last received callsigns on your primary station enabled for XCA in TrackAudio configure the following settings:
 
-| Setting                 | Description                                                        | Example     |
-| ----------------------- | ------------------------------------------------------------------ | ----------- |
-| Title                   | The title to show on the action, typically the name of the station | `TOWER`     |
-| Callsign                | The callsign in TrackAudio for the station.                        | `PDX_O_TWR` |
-| Listen to               | The TrackAudio mode the action should follow.                      | `XCA`       |
-| Last received callsigns | The number of last received callsigns to show on the action.       | `3`         |
+| Setting                 | Description                                                         | Example     |
+| ----------------------- | ------------------------------------------------------------------- | ----------- |
+| Title                   | The title to show on the action, typically the name of the station. | `TOWER`     |
+| Callsign                | The callsign in TrackAudio for the station.                         | `PDX_O_TWR` |
+| Listen to               | The TrackAudio mode the action should follow.                       | `XCA`       |
+| Last received callsigns | The number of last received callsigns to show on the action.        | `3`         |
 
 ![Screenshot of a station status action, with the fields populated as described in the above table.](basic-primary-with-callsigns.png)
 
@@ -99,8 +99,6 @@ To save time when connecting to the network the station status action can be con
 {{</action-figures>}}
 
 ## Interactions
-
-The action supports both short and long press.
 
 | Interaction | Description                                                                                                 |
 | ----------- | ----------------------------------------------------------------------------------------------------------- |
