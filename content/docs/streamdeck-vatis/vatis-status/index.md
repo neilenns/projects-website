@@ -38,8 +38,8 @@ The action supports long press.
 
 ## Settings reference
 
-| Setting       | Description                                             | Required? |
-| ------------- | ------------------------------------------------------- | :-------: |
-| Title         | The title to show on the action. Optional.              |    No     |
-| Connected     | The image to display when connected to vATIS. Optional. |    No     |
-| Not connected | The image to display when not connected to vATIS.       |    No     |
+| Setting       | Description                                       | Required? |
+| ------------- | ------------------------------------------------- | :-------: |
+| Title         | The title to show on the action.                  |    No     |
+| Connected     | The image to display when connected to vATIS.     |    No     |
+| Not connected | The image to display when not connected to vATIS. |    No     |
