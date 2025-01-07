@@ -7,6 +7,8 @@ next: /docs/streamdeck-trackaudio/station-status
 weight: 40
 ---
 
+{{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}
+
 The push to talk action triggers the transmit function in TrackAudio. You can use it to:
 
 - Start transmission using a Stream Deck key

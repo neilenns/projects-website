@@ -7,6 +7,8 @@ next: /docs/streamdeck-trackaudio/trackaudio-status
 weight: 60
 ---
 
+{{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}
+
 ## Configuring a station volume action
 
 The station volume action displays the current volume of a specific station and enables changing the volume, as well as muting

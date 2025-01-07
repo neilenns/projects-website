@@ -17,3 +17,20 @@
 .streamdeck-action-svg {
   border-radius: 20px;       /* Optional: slightly rounded corners */
 }
+
+.get-button {
+  display: inline-block;
+  background-color: #1e6bff;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.get-button:hover {
+  background-color: #193ed4;
+}

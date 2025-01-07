@@ -7,6 +7,8 @@ next: /docs/streamdeck-trackaudio/examples
 weight: 70
 ---
 
+{{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}
+
 The TrackAudio status action shows the status of the connection between Stream Deck and TrackAudio, and whether the voice connection in TrackAudio is up. A long press of the action will force a refresh of all the Stream Deck TrackAudio actions.
 
 ### TrackAudio status action settings <!-- omit from toc -->
