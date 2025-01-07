@@ -20,9 +20,9 @@ This action does not require any configuration to use.
 
 <!-- Not connected -->
 
-{{< action-figure src="vatis-status/template.svg.html" isConnected="false" caption="Not connected to vATIS" >}}
+{{< action-figure src="vatis/vatis-status/template.svg.html" isConnected="false" caption="Not connected to vATIS" >}}
 
-{{< action-figure src="vatis-status/template.svg.html" isConnected="true" caption="Connected to vATIS" >}}
+{{< action-figure src="vatis/vatis-status/template.svg.html" isConnected="true" caption="Connected to vATIS" >}}
 
 {{</action-figures>}}
 

@@ -22,11 +22,11 @@ The push to talk action does not require any configuration to use. Simply add it
 
 <!-- not transmitting -->
 
-{{<action-figure src="push-to-talk/template.svg.html" state="notTransmitting" caption="Not transmitting">}}
+{{<action-figure src="trackaudio/push-to-talk/template.svg.html" state="notTransmitting" caption="Not transmitting">}}
 
 <!-- transmitting -->
 
-{{<action-figure src="push-to-talk/template.svg.html" state="transmitting" title="KPDX" caption="Transmitting">}}
+{{<action-figure src="trackaudio/push-to-talk/template.svg.html" state="transmitting" title="KPDX" caption="Transmitting">}}
 
 {{</action-figures>}}
 
