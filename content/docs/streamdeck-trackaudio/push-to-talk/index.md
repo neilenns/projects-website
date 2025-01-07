@@ -7,13 +7,40 @@ next: /docs/streamdeck-trackaudio/station-status
 weight: 40
 ---
 
-## Configuring a push to talk action
+The push to talk action triggers the transmit function in TrackAudio. You can use it to:
 
-The push to talk action does not require configuration for use. Simply add it to your profile, then press the action to start transmitting.
+- Start transmission using a Stream Deck key
+- See when you are transmitting
 
-| Setting          | Description                                 | Default                                                    |
-| ---------------- | ------------------------------------------- | ---------------------------------------------------------- |
-| Title            | The title to show on the action. Optional.  |                                                            |
-| Not transmitting | Shown when idle. Optional.                  | ![Microphone with black background](ptt-idle.png)          |
-| Transmitting     | Shown when actively transmitting. Optional. | ![Microphone with orange background](ptt-transmitting.png) |
-| Show title       | Show the title on the action.               | false                                                      |
+## Basic configuration
+
+The push to talk action does not require any configuration to use. Simply add it to your profile, then press the key to start transmitting.
+
+## States
+
+{{<action-figures>}}
+
+<!-- not transmitting -->
+
+{{<action-figure src="push-to-talk/template.svg.html" state="notTransmitting" caption="Not transmitting">}}
+
+<!-- transmitting -->
+
+{{<action-figure src="push-to-talk/template.svg.html" state="transmitting" title="KPDX" caption="Transmitting">}}
+
+{{</action-figures>}}
+
+## Interactions
+
+| Interaction    | Description                          |
+| -------------- | ------------------------------------ |
+| Press and hold | Transmits as long as the key is held |
+
+## Settings reference
+
+| Setting          | Description                                 | Required |
+| ---------------- | ------------------------------------------- | -------- |
+| Title            | The title to show on the action. No         |          |
+| Not transmitting | Shown when idle. Optional.                  | No       |
+| Transmitting     | Shown when actively transmitting. Optional. | No       |
+| Show title       | Show the title on the action.               | No       |
