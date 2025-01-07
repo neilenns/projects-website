@@ -72,14 +72,15 @@ The action supports both short and long press.
 
 ## Settings reference
 
-| Setting     | Description                                                     | Required? |
-| ----------- | --------------------------------------------------------------- | :-------: |
-| Title       | The title to show on the action.                                |    No     |
-| Station     | The name of the station you want to display status for.         |    Yes    |
-| Type        | The type of the station.                                        |    Yes    |
-| Current     | The image to display when the ATIS letter shown is current.     |    No     |
-| Unavailable | The image to display when there is no connection to vATIS.      |    No     |
-| Updated     | The image to display when the ATIS letter updated to a new one. |    No     |
+| Setting     | Description                                                                     | Required? |
+| ----------- | ------------------------------------------------------------------------------- | :-------: |
+| Title       | The title to show on the action.                                                |    No     |
+| Station     | The name of the station you want to display status for.                         |    Yes    |
+| Type        | The type of the station.                                                        |    Yes    |
+| Current     | The image to display when the ATIS letter shown is current.                     |    No     |
+| Observer    | The image to display when the ATIS is published by a controller other than you. |    No     |
+| Unavailable | The image to display when there is no connection to vATIS.                      |    No     |
+| Updated     | The image to display when the ATIS letter updated to a new one.                 |    No     |
 
 The default display automatically includes the station name, ATIS letter, and altimeter. When specifying
 custom state images the following advanced settings can be used to display text on the action:
