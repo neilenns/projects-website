@@ -5,6 +5,8 @@ next: vatis-status
 og_image: streamdeck-vatis.png
 ---
 
+{{< get-button url="https://marketplace.elgato.com/product/vatis-878fcd1a-7e0a-4d6e-bd36-c70b075573ea" title="Get from marketplace" >}}
+
 The ATIS letter action shows the current ATIS information for the specified station. You can use it to:
 
 - See the current ATIS letter for a station

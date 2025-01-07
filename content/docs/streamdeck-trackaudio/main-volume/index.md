@@ -7,6 +7,8 @@ next: /docs/streamdeck-trackaudio/push-to-talk
 weight: 30
 ---
 
+{{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}
+
 The main volume action displays the current volume of TrackAudio and enables changing the volume. This action requires a dial control, available on the [Stream Deck +](https://www.elgato.com/us/en/p/stream-deck-plus-black).
 
 Turning the knob will adjust the station volume.
