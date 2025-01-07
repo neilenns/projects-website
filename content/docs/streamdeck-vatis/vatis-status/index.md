@@ -41,3 +41,12 @@ This action does not require any configuration to use.
 | Title         | The title to show on the action.                  |    No     |
 | Connected     | The image to display when connected to vATIS.     |    No     |
 | Not connected | The image to display when not connected to vATIS. |    No     |
+
+## SVG template variables
+
+All state images support [SVG templates](../svg-templates/). The following variables are provided:
+
+| Variable    | Description                                 |
+| ----------- | ------------------------------------------- |
+| isConnected | True if the actions are connected to vATIS. |
+| title       | The title specified by the user.            |
