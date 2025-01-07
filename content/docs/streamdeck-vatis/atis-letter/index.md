@@ -36,27 +36,27 @@ To configure the action to show the ATIS for a specific station configure the fo
 
 <!-- Unavailable -->
 
-{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="false" caption="ATIS unavailable" >}}
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="false" caption="ATIS unavailable" >}}
 
 <!-- Available, not published -->
 
-{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="false" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" caption="ATIS not published" >}}
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="false" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" caption="ATIS not published" >}}
 
 <!-- Available -->
 
-{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" caption="ATIS published" >}}
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" caption="ATIS published" >}}
 
 <!-- Available, pressure warning -->
 
-{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="2990" isNewAtis="false" formattedValue="A2990" pressureUnit="MercuryInch" letter="C" caption="Pressure warning" >}}
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="2990" isNewAtis="false" formattedValue="A2990" pressureUnit="MercuryInch" letter="C" caption="Pressure warning" >}}
 
 <!-- Available, published, new -->
 
-{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="true" isNewAtis="true" pressureValue="3012" formattedValue="A3012" pressureUnit="MercuryInch" letter="D" caption="New ATIS published" >}}
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" isNewAtis="true" pressureValue="3012" formattedValue="A3012" pressureUnit="MercuryInch" letter="D" caption="New ATIS published" >}}
 
 <!-- Available, published, new, pressure warning -->
 
-{{< action-figure src="atis-letter/template.svg.html" title="KPDX" isConnected="true" isNewAtis="true" pressureValue="2990" formattedValue="A2990" pressureUnit="MercuryInch" letter="D" caption="New ATIS, pressure warning" >}}
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" isNewAtis="true" pressureValue="2990" formattedValue="A2990" pressureUnit="MercuryInch" letter="D" caption="New ATIS, pressure warning" >}}
 {{</action-figures>}}
 
 By default the pressure displays in white. For pressure reported in InHg, if the value falls below 29.92 the value will show in red as a reminder that FL180 (or FL190, depending on the altimeter value) are unusable.
