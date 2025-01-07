@@ -46,3 +46,17 @@ The push to talk action does not require any configuration to use. Simply add it
 | Not transmitting | Shown when idle.                             | No        |
 | Transmitting     | Shown when actively transmitting.            | No        |
 | Show title       | Show the title on the action. Default `off`. | No        |
+
+## SVG template variables
+
+All state images support [SVG templates](../svg-templates/). The following variables are provided:
+
+| Variable | Description                              |
+| -------- | ---------------------------------------- |
+| state    | The name for the action's current state. |
+| title    | The title specified by the user.         |
+
+The state names are:
+
+- notTransmitting
+- transmitting

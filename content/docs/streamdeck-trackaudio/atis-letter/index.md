@@ -58,3 +58,19 @@ To configure the action to show the ATIS for a specific station configure the fo
 | Automatically clear updates | Clears the updated state automatically after two minutes. Pressing the action will always clear the update state. | Yes       |
 | Show letter                 | Show the letter on the action.                                                                                    | Yes       |
 | Show title                  | Show the title on the action.                                                                                     | Yes       |
+
+## SVG template variables
+
+All state images support [SVG templates](../svg-templates/). The following variables are provided:
+
+| Variable | Description                                                      |
+| -------- | ---------------------------------------------------------------- |
+| callsign | The callsign for the ATIS station.                               |
+| letter   | The current ATIS letter, or undefined if no letter is available. |
+| state    | The name for the action's current state.                         |
+| title    | The title specified by the user.                                 |
+
+The state names are:
+
+- current
+- updated
