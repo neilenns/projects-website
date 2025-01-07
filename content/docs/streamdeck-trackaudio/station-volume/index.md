@@ -19,7 +19,11 @@ This action requires a [Stream Deck with dial inputs](https://www.elgato.com/us/
 
 ## Basic configuration
 
-The station volume action does not require any configuration to use. Simply add it to your profile, then use the dial to adjust the station volume.
+To configure the action to control the volume for a specific station configure the following settings:
+
+| Setting  | Value                                                           | Example     |
+| -------- | --------------------------------------------------------------- | ----------- |
+| Callsign | The callsign for the station you want to control the volume of. | `PDX_O_TWR` |
 
 ## Configuring a station volume action
 
@@ -49,10 +53,10 @@ the station. This action requires a dial control, available on the [Stream Deck 
 
 ### Settings reference
 
-| Setting       | Description                                                                            | Required? |
-| ------------- | -------------------------------------------------------------------------------------- | :-------: |
-| Callsign      | The callsign for the station you want to control the volume of, for example `PDX_TWR`. |    Yes    |
-| Change amount | The size of volume change to make on each click of the knob. Default `1`.              |    Yes    |
-| Muted         | The image to display when the station is muted in TrackAudio.                          |    No     |
-| Not muted     | The image to display when the station is not muted in TrackAudio.                      |    No     |
-| Unavailable   | The image to display when the station is not added in TrackAudio.                      |    No     |
+| Setting       | Description                                                                              | Required? |
+| ------------- | ---------------------------------------------------------------------------------------- | :-------: |
+| Callsign      | The callsign for the station you want to control the volume of, for example `PDX_O_TWR`. |    Yes    |
+| Change amount | The size of volume change to make on each click of the knob. Default `1`.                |    Yes    |
+| Muted         | The image to display when the station is muted in TrackAudio.                            |    No     |
+| Not muted     | The image to display when the station is not muted in TrackAudio.                        |    No     |
+| Unavailable   | The image to display when the station is not added in TrackAudio.                        |    No     |
