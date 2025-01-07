@@ -67,3 +67,25 @@ be added with `XCA` enabled and the hotline station should be added with `RX` en
 | Show hotline callsign | Show the hotline callsign on the action. Default `off`.                                                                                                                                            | Yes       |
 | Show primary callsign | Show the primary callsign on the action. Default `off`.                                                                                                                                            | Yes       |
 | Show title            | Show the title on the action. Default `on`.                                                                                                                                                        | Yes       |
+
+## SVG template variables
+
+All state images support [SVG templates](../svg-templates/). The following variables are provided:
+
+| Variable         | Description                              |
+| ---------------- | ---------------------------------------- |
+| hotlineCallsign  | The hotline callsign.                    |
+| hotlineFrequency | The frequency for the hotline callsign.  |
+| primaryCallsign  | The primary callsign.                    |
+| primaryFrequency | The frequency for the primary callsign.  |
+| state            | The name for the action's current state. |
+| title            | The title specified by the user.         |
+
+The state names are:
+
+- bothActive
+- hotlineActive
+- listening
+- neitherActive
+- receiving
+- unavailable

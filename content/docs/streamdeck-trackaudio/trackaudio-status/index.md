@@ -45,3 +45,18 @@ This action does not require any configuration to use.
 | Not connected   | The image to display when not connected to TrackAudio.               |    No     |
 | Voice connected | The image to display when the TrackAudio voice connection is active. |    Yes    |
 | Show title      | Show the title on the action. Default `off`.                         |    Yes    |
+
+## SVG template variables
+
+All state images support [SVG templates](../svg-templates/). The following variables are provided:
+
+| Variable | Description                              |
+| -------- | ---------------------------------------- |
+| state    | The name for the action's current state. |
+| title    | The title specified by the user.         |
+
+The state names are:
+
+- connected
+- notConnected
+- voiceConnected

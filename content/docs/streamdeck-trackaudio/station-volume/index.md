@@ -60,3 +60,18 @@ the station. This action requires a dial control, available on the [Stream Deck 
 | Muted         | The image to display when the station is muted in TrackAudio.                            |    No     |
 | Not muted     | The image to display when the station is not muted in TrackAudio.                        |    No     |
 | Unavailable   | The image to display when the station is not added in TrackAudio.                        |    No     |
+
+## SVG template variables
+
+All state images support [SVG templates](../svg-templates/). The following variables are provided:
+
+| Variable | Description                              |
+| -------- | ---------------------------------------- |
+| volume   | The current station volume, from 0-100.  |
+| state    | The name for the action's current state. |
+
+The state names are:
+
+- unavailable
+- muted
+- notMuted

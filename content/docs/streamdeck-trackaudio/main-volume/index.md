@@ -42,3 +42,17 @@ The main volume action does not require any configuration to use. Simply add it 
 | Change amount | The size of volume change to make on each click of the knob. Default `1`. |    Yes    |
 | Connected     | The image to display when connected to TrackAudio.                        |    No     |
 | Not connected | The image to display when not connected to TrackAudio.                    |    No     |
+
+## SVG template variables
+
+All state images support [SVG templates](../svg-templates/). The following variables are provided:
+
+| Variable | Description                              |
+| -------- | ---------------------------------------- |
+| volume   | The current station volume, from 0-100.  |
+| state    | The name for the action's current state. |
+
+The state names are:
+
+- connected
+- notConnected

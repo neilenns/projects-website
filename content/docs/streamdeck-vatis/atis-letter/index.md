@@ -93,3 +93,34 @@ custom state images the following advanced settings can be used to display text 
 | Show letter    | Shows the letter on the action.    | `off`   |
 | Show title     | Shows the title on the action.     | `off`   |
 | Show wind      | Shows the wind on the action.      | `off`   |
+
+## SVG template variables
+
+All state images support [SVG templates](../svg-templates/). The following variables are provided:
+
+| Variable         | Description                                   |
+| ---------------- | --------------------------------------------- |
+| altimeter        | The current altimeter.                        |
+| connectionStatus | The current station connection status.        |
+| isConnected      | True if the station is connected to VATSIM.   |
+| isNewAtis        | True if the ATIS letter is new.               |
+| letter           | The current ATIS letter.                      |
+| pressure         | A pressure object with the altimeter details. |
+| station          | The station name.                             |
+| title            | The title specified by the user.              |
+| wind             | The current wind.                             |
+
+The connectionStatus values are:
+
+- Connected
+- Connecting
+- Disconnected
+- Observer
+
+The pressure object contains the following properties:
+
+| Property       | Description                                                                                  |
+| -------------- | -------------------------------------------------------------------------------------------- |
+| formattedValue | A formatted display of the pressure, either A2999 or Q910 for example depending on the unit. |
+| value          | The value of the pressure, without a decimal point, e.g. 2999.                               |
+| unit           | The unit for the pressure, either `MercuryInch` or `hPa`.                                    |

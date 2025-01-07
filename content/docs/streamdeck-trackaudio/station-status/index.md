@@ -126,4 +126,28 @@ To save time when connecting to the network the station status action can be con
 | Show frequency                    | Show the callsign's frequency on the action. Default `off`.                                                                                                                                                                               |    Yes    |
 | Show listen to                    | Show the listen to value on the action. Default `off`.                                                                                                                                                                                    |    Yes    |
 | Show title                        | Show the title on the action. Default `on`.                                                                                                                                                                                               |    Yes    |
-| Clear callsigns after (minutes)   | How long to leave callsigns displayed before they age off. Set to 0 to persist callsigns until they are pushed by newer callsigns. Default `2`                                                                                            |    Yes    |
+| Clear callsigns after (minutes)   | How long to leave callsigns displayed before they age off. Set to 0 to persist callsigns until they are pushed by newer callsigns. Default `2`.                                                                                           |    Yes    |
+
+## SVG template variables
+
+All state images support [SVG templates](../svg-templates/). The following variables are provided:
+
+| Variable             | Description                                                        |
+| -------------------- | ------------------------------------------------------------------ |
+| callsign             | The callsign for the station.                                      |
+| frequency            | The frequency for the station, e.g. 121900000.                     |
+| formattedFrequency   | The frequency for the station formatted for display, e.g. 121.900. |
+| isOutputMuted        | True if the station is muted.                                      |
+| lastReceivedCallsign | The last received callsign.                                        |
+| listenTo             | The value of the listen to setting.                                |
+| state                | The name for the action's current state.                           |
+| title                | The title specified by the user.                                   |
+| outputVolume         | The station's output volume, between 0 and 100 in whole numbers.   |
+
+The state names are:
+
+- activeComms
+- listening
+- muted
+- notListening
+- unavailable
