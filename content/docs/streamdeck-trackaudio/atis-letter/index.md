@@ -48,13 +48,13 @@ To configure the action to show the ATIS for a specific station configure the fo
 
 ## Settings reference
 
-| Setting                     | Description                                                                                                       | Required |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------- |
-| Title                       | The title to show on the action. The current ATIS letter will be appended to this title separated by a newline.   | No.      |
-| Callsign                    | The callsign to get the current ATIS letter for, for example `KSEA_ATIS`.                                         | Yes      |
-| Current                     | The image to display when the ATIS letter shown is current.                                                       | No       |
-| Unavailable                 | The image to display when no ATIS letter is available.                                                            | No       |
-| Updated                     | The image to display when the ATIS letter updated to a new one.                                                   | No       |
-| Automatically clear updates | Clears the updated state automatically after two minutes. Pressing the action will always clear the update state. | Yes      |
-| Show letter                 | Show the letter on the action.                                                                                    | Yes      |
-| Show title                  | Show the title on the action.                                                                                     | Yes      |
+| Setting                     | Description                                                                                                       | Required? |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------- | --------- |
+| Title                       | The title to show on the action. The current ATIS letter will be appended to this title separated by a newline.   | No.       |
+| Callsign                    | The callsign to get the current ATIS letter for, for example `KSEA_ATIS`.                                         | Yes       |
+| Current                     | The image to display when the ATIS letter shown is current.                                                       | No        |
+| Unavailable                 | The image to display when no ATIS letter is available.                                                            | No        |
+| Updated                     | The image to display when the ATIS letter updated to a new one.                                                   | No        |
+| Automatically clear updates | Clears the updated state automatically after two minutes. Pressing the action will always clear the update state. | Yes       |
+| Show letter                 | Show the letter on the action.                                                                                    | Yes       |
+| Show title                  | Show the title on the action.                                                                                     | Yes       |

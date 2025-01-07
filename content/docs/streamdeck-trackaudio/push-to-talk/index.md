@@ -40,9 +40,9 @@ The push to talk action does not require any configuration to use. Simply add it
 
 ## Settings reference
 
-| Setting          | Description                                 | Required |
-| ---------------- | ------------------------------------------- | -------- |
-| Title            | The title to show on the action. No         |          |
-| Not transmitting | Shown when idle. Optional.                  | No       |
-| Transmitting     | Shown when actively transmitting. Optional. | No       |
-| Show title       | Show the title on the action.               | No       |
+| Setting          | Description                                  | Required? |
+| ---------------- | -------------------------------------------- | --------- |
+| Title            | The title to show on the action.             | No        |
+| Not transmitting | Shown when idle.                             | No        |
+| Transmitting     | Shown when actively transmitting.            | No        |
+| Show title       | Show the title on the action. Default `off`. | No        |
