@@ -9,14 +9,36 @@ weight: 30
 
 {{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}
 
-The main volume action displays the current volume of TrackAudio and enables changing the volume. This action requires a dial control, available on the [Stream Deck +](https://www.elgato.com/us/en/p/stream-deck-plus-black).
+The main volume action controls the volume for TrackAudio. You can use it to:
 
-Turning the knob will adjust the station volume.
+- Increase or decrease TrackAudio volume.
+- See the current TrackAudio volume level.
 
-### Main volume settings <!-- omit from toc -->
+This action requires a [Stream Deck with dial inputs](https://www.elgato.com/us/en/p/stream-deck-plus-black).
 
-| Setting       | Description                                                                                 | Default |
-| ------------- | ------------------------------------------------------------------------------------------- | ------- |
-| Change amount | The size of volume change to make on each click of the knob.                                | 1       |
-| Connected     | The image to display when connected to TrackAudio. Optional, defaults to a volume icon.     |         |
-| Not connected | The image to display when not connected to TrackAudio. Optional, defaults to a volume icon. |         |
+## Basic configuration
+
+The main volume action does not require any configuration to use. Simply add it to your profile.
+
+## States
+
+{{<action-figures>}}
+{{<action-figure src="trackaudio/main-volume/template.svg.html" state="connected" volume=90 title="TrackAudio" caption="Connected">}}
+{{<action-figure src="trackaudio/main-volume/template.svg.html" state="notConnected" volume=90 title="TrackAudio" caption="Not connected">}}
+{{</action-figures>}}
+
+## Interactions
+
+| Interaction  | Description           |
+| ------------ | --------------------- |
+| Rotate left  | Decreases the volume. |
+| Rotate right | Increases the volume. |
+
+### Settings reference
+
+| Setting       | Description                                                               | Required? |
+| ------------- | ------------------------------------------------------------------------- | :-------: |
+| Title         | The title to show on the action.                                          |    No     |
+| Change amount | The size of volume change to make on each click of the knob. Default `1`. |    Yes    |
+| Connected     | The image to display when connected to TrackAudio.                        |    No     |
+| Not connected | The image to display when not connected to TrackAudio.                    |    No     |
