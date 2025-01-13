@@ -42,7 +42,7 @@ The main volume action does not require any configuration to use. Simply add it 
 | Setting       | Description                                                               | Required? |
 | ------------- | ------------------------------------------------------------------------- | :-------: |
 | Title         | The title to show on the action.                                          |    No     |
-| Change amount | The size of volume change to make on each click of the knob. Default `1`. |    Yes    |
+| Change amount | The size of volume change to make on each click of the knob. Default `2`. |    Yes    |
 | Connected     | The image to display when connected to TrackAudio.                        |    No     |
 | Not connected | The image to display when not connected to TrackAudio.                    |    No     |
 
