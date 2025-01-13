@@ -26,8 +26,8 @@ The main volume action does not require any configuration to use. Simply add it 
 ## States
 
 {{<action-figures>}}
-{{<action-figure src="trackaudio/main-volume/template.svg.html" state="connected" volume=90 title="TrackAudio" caption="Connected">}}
-{{<action-figure src="trackaudio/main-volume/template.svg.html" state="notConnected" volume=90 title="TrackAudio" caption="Not connected">}}
+{{<action-figure src="trackaudio/main-volume/template.svg.html" state="connected" volume=90 title="Main volume" caption="Connected">}}
+{{<action-figure src="trackaudio/main-volume/template.svg.html" state="notConnected" volume=90 title="Main volume" caption="Not connected">}}
 {{</action-figures>}}
 
 ## Interactions
