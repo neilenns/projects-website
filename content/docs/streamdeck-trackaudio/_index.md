@@ -27,4 +27,4 @@ This Stream Deck plugin provides actions to interact with TrackAudio.
 
 After installation the plugin actions are available under the TrackAudio category:
 
-![Screenshot of the Stream Deck profile UI with the categories filtered to "track"](streamdeck-category.png)
+![Screenshot of the Stream Deck profile UI with the keys categories filtered to "track"](keys-category.png) ![Screenshot of the Stream Deck profile UI with the dials categories filtered to "track"](dials-category.png)
