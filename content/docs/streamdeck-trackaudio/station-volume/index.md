@@ -9,9 +9,6 @@ weight: 60
 
 {{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}
 
-> [!NOTE]
-> This action is coming soon!
-
 The station volume action controls the volume for a specific station. You can use it to:
 
 - Increase or decrease the volume of a station.
@@ -39,6 +36,10 @@ the station. This action requires a dial control, available on the [Stream Deck 
 
 {{<action-figure src="trackaudio/station-volume/template.svg.html" state="muted" title="GND" volume=30 caption="Muted">}}
 
+{{<action-figure src="trackaudio/station-volume/template.svg.html" state="notConnected" title="GND" volume=30 caption="Not connected">}}
+
+</br>
+
 {{<action-figure src="trackaudio/station-volume/template.svg.html" state="notMuted" title="GND" volume=30 caption="Not muted">}}
 
 {{<action-figure src="trackaudio/station-volume/template.svg.html" state="unavailable" title="GND" volume=30 caption="Unavailable">}}
@@ -59,7 +60,7 @@ the station. This action requires a dial control, available on the [Stream Deck 
 | Setting       | Description                                                                              | Required? |
 | ------------- | ---------------------------------------------------------------------------------------- | :-------: |
 | Callsign      | The callsign for the station you want to control the volume of, for example `PDX_O_TWR`. |    Yes    |
-| Change amount | The size of volume change to make on each click of the knob. Default `1`.                |    Yes    |
+| Change amount | The size of volume change to make on each click of the knob. Default `2`.                |    Yes    |
 | Muted         | The image to display when the station is muted in TrackAudio.                            |    No     |
 | Not muted     | The image to display when the station is not muted in TrackAudio.                        |    No     |
 | Unavailable   | The image to display when the station is not added in TrackAudio.                        |    No     |
@@ -77,4 +78,5 @@ The state names are:
 
 - unavailable
 - muted
+- notConnected
 - notMuted

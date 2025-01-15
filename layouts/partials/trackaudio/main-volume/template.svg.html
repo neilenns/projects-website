@@ -1,9 +1,37 @@
+{{ $uniqueID := now.UnixNano }}
+
 <svg
   id="Layer_1"
   xmlns="http://www.w3.org/2000/svg"
   version="1.1"
   viewBox="0 0 144 144"
 >
+  <defs>
+    <style>
+      .icon-{{ $uniqueID }} {
+		{{if (eq .state "notConnected")}}
+	        fill: grey;
+		{{else}}
+        	fill: #FFFFFF;
+		{{end}}
+        stroke-width: 0px;
+      }
+      .text-{{ $uniqueID }} {
+		{{if (eq .state "notConnected")}}
+	        fill: grey;
+		{{else}}
+        	fill: #FFFFFF;
+		{{end}}
+      }
+      .bar-{{ $uniqueID }} {
+		{{if (eq .state "notConnected")}}
+	        stroke: grey;
+		{{else}}
+        	stroke: #FFFFFF;
+		{{end}}
+      }
+    </style>
+  </defs>
   <rect id="Background" y="35.9" width="144" height="72" />
   <text
     transform="translate(13.7 58.2)"
@@ -15,13 +43,13 @@
     <tspan x="0" y="0">{{ .title }}</tspan>
   </text>
   <text
+    class="text-{{ $uniqueID }}"
     transform="translate(76.5 83.7)"
-    fill="#fff"
     font-family="Verdana-Bold, Verdana"
     font-size="25.9"
     font-weight="700"
   >
-    <tspan x="0" y="0">{{ .volume }}</tspan>
+    <tspan x="0" y="0">{{if (ne .state "notConnected") }}{{ .volume }}{{end}}</tspan>
   </text>
   <line
     id="Full_width_line"
@@ -37,20 +65,18 @@
   />
   <line
     id="Set_volume_line"
+    class="bar-{{ $uniqueID }}"
     x1="58"
     y1="93.5"
     x2="{{ add 58 (div (mul .volume 72) 100) }}"
     y2="93.5"
     fill="none"
-    stroke="#fff"
     stroke-linecap="round"
     stroke-miterlimit="10"
     stroke-width="8"
   />
   <g id="Volume_icon">
-    <path
-      d="M45.4,66.9c4,3.3,6.6,8.3,6.6,13.9s-2.6,10.6-6.6,13.9c-.6.5-1.6.4-2.1-.2s-.4-1.6.2-2.1c3.4-2.7,5.5-6.9,5.5-11.6s-2.1-8.8-5.5-11.6c-.6-.5-.7-1.5-.2-2.1s1.5-.7,2.1-.2h0ZM41.6,71.5c2.7,2.2,4.4,5.5,4.4,9.3s-1.7,7.1-4.4,9.3c-.6.5-1.6.4-2.1-.2s-.4-1.6.2-2.1c2-1.6,3.3-4.1,3.3-6.9s-1.3-5.3-3.3-7c-.6-.5-.7-1.5-.2-2.1s1.5-.7,2.1-.2h0ZM37.9,76.1c1.3,1.1,2.2,2.8,2.2,4.6s-.9,3.5-2.2,4.6c-.6.5-1.6.4-2.1-.2s-.4-1.6.2-2.1c.7-.5,1.1-1.4,1.1-2.3s-.4-1.8-1.1-2.3c-.6-.5-.7-1.5-.2-2.1s1.5-.7,2.1-.2h0ZM30.9,67c.7.3,1.2,1,1.2,1.8v23.9c0,.8-.5,1.5-1.2,1.8s-1.6.2-2.1-.3l-8.4-7.5h-4.2c-2.2,0-4-1.8-4-4v-4c0-2.2,1.8-4,4-4h4.2l8.4-7.5c.6-.5,1.4-.6,2.1-.3h0Z"
-      fill="#fff"
-    />
+    <path class="icon-{{ $uniqueID }}"
+      d="M45.4,66.9c4,3.3,6.6,8.3,6.6,13.9s-2.6,10.6-6.6,13.9c-.6.5-1.6.4-2.1-.2s-.4-1.6.2-2.1c3.4-2.7,5.5-6.9,5.5-11.6s-2.1-8.8-5.5-11.6c-.6-.5-.7-1.5-.2-2.1s1.5-.7,2.1-.2h0ZM41.6,71.5c2.7,2.2,4.4,5.5,4.4,9.3s-1.7,7.1-4.4,9.3c-.6.5-1.6.4-2.1-.2s-.4-1.6.2-2.1c2-1.6,3.3-4.1,3.3-6.9s-1.3-5.3-3.3-7c-.6-.5-.7-1.5-.2-2.1s1.5-.7,2.1-.2h0ZM37.9,76.1c1.3,1.1,2.2,2.8,2.2,4.6s-.9,3.5-2.2,4.6c-.6.5-1.6.4-2.1-.2s-.4-1.6.2-2.1c.7-.5,1.1-1.4,1.1-2.3s-.4-1.8-1.1-2.3c-.6-.5-.7-1.5-.2-2.1s1.5-.7,2.1-.2h0ZM30.9,67c.7.3,1.2,1,1.2,1.8v23.9c0,.8-.5,1.5-1.2,1.8s-1.6.2-2.1-.3l-8.4-7.5h-4.2c-2.2,0-4-1.8-4-4v-4c0-2.2,1.8-4,4-4h4.2l8.4-7.5c.6-.5,1.4-.6,2.1-.3h0Z"/>
   </g>
 </svg>
