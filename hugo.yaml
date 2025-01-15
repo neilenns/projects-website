@@ -1,6 +1,9 @@
 # Hugo configuration file
 title: Neil's projects
 
+# Required so display of last modified date on pages works
+enableGitInfo: true
+
 # import hextra as module
 module:
   imports:
@@ -32,6 +35,8 @@ menu:
         icon: github
 
 params:
+  displayUpdatedDate: true
+
   navbar:
     displayTitle: true
     displayLogo: false
@@ -43,3 +48,7 @@ params:
   editURL:
     enable: false
     base: "https://github.com/neilenns/projects-website/edit/main/content"
+
+  versions:
+    trackaudio: "v3.4.0"
+    vATIS: "v1.1.1"
