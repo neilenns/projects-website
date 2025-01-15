@@ -9,9 +9,6 @@ weight: 30
 
 {{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}
 
-> [!NOTE]
-> This action is coming soon!
-
 The main volume action controls the volume for TrackAudio. You can use it to:
 
 - Increase or decrease TrackAudio volume.
