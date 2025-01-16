@@ -7,7 +7,7 @@ og_image: ogimage/streamdeck-trackaudio.png
 {{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}
 
 > [!IMPORTANT]
-> This plugin requires [TrackAudio beta 1.3.0-beta.1](https://github.com/pierr3/TrackAudio/releases/tag/1.3.0-beta.1) or later. It will not work with earlier versions of TrackAudio.
+> This plugin requires [TrackAudio beta 1.3.0-beta.5](https://github.com/pierr3/TrackAudio/releases/latest) or later. It will not work with earlier versions of TrackAudio.
 
 This Stream Deck plugin provides actions to interact with TrackAudio.
 
@@ -27,4 +27,4 @@ This Stream Deck plugin provides actions to interact with TrackAudio.
 
 After installation the plugin actions are available under the TrackAudio category:
 
-![Screenshot of the Stream Deck profile UI with the categories filtered to "track"](streamdeck-category.png)
+![Screenshot of the Stream Deck profile UI with the keys categories filtered to "track"](keys-category.png) ![Screenshot of the Stream Deck profile UI with the dials categories filtered to "track"](dials-category.png)
