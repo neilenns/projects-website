@@ -66,7 +66,7 @@ To save time when connecting to the network the station status action can be con
 | Show title                        | Enables display of the action's title. This setting is located under advanced options.                        | Checked   |
 | Automatically enable speaker mode | Automatically turns on speaker mode when TrackAudio connects. This setting is located under advanced options. | Checked   |
 | Automatically set Rx mode         | Automatically turns on RX mode when TrackAudio connects. This setting is located under advanced options.      | Checked   |
-| Toggle mute when pressed          | Toggles the mute state for the station instead of toggling RX mode.                                           | Checked   |
+| Toggle mute on press              | Toggles the mute state for the station instead of toggling RX mode.                                           | Checked   |
 
 ## States
 
@@ -103,7 +103,7 @@ To save time when connecting to the network the station status action can be con
 | Interaction | Description                                                                                                 |
 | ----------- | ----------------------------------------------------------------------------------------------------------- |
 | Short press | Toggles the `Listen to` button in TrackAudio, or mutes the station audio if enabled in the action settings. |
-| Long press  | Refreshes the action's state.                                                                               |
+| Long press  | Refreshes the action's state, or mutes the station audio if enabled in the action settings.                 |
 
 ## Settings reference
 
@@ -113,7 +113,8 @@ To save time when connecting to the network the station status action can be con
 | Callsign                          | The callsign for the station you want to display status for.                                                                                                                                                                                    |    Yes    |
 | Listen to                         | What status to display on the button, either RX, TX, or XCA. Default `RX`.                                                                                                                                                                      |    Yes    |
 | Last received callsigns           | Sets the number of unique last received callsigns to display, newest to oldest, and will age off after two minutes. Only supported when listen to is set to `RX` or `XCA`. If set to `0` no last received callsigns will be shown. Default `0`. |    Yes    |
-| Toggle mute when pressed          | Toggles mute for the station when the action is pressed instead of toggling the configured listen to button. Default `off`.                                                                                                                     |    Yes    |
+| Toggle mute on press              | Toggles mute for the station when the action is pressed instead of toggling the configured listen to button. Default `off`.                                                                                                                     |    Yes    |
+| Toggle mute on long press         | Toggles mute for the station when the action is long pressed instead of refreshing the action state. Default `off`.                                                                                                                             |    Yes    |
 | Active comms                      | The image to display when a transmission is actively taking place.                                                                                                                                                                              |    No     |
 | Blocked                           | The image to display when both an aircraft and the ATC position are transmitting at the same time.                                                                                                                                              |    No     |
 | Listening                         | The image to display when the station is active.                                                                                                                                                                                                |    No     |
