@@ -9,12 +9,13 @@ og_image: ogimage/streamdeck-vatis.png
 
 The ATIS letter action shows the current ATIS information for the specified station. You can use it to:
 
-- See the current ATIS letter for a station
-- See the current altimeter for a station
-- Get warned if the pressure falls below 29.92 InHg as a reminder that FL180 (or FL190) is unavailable
-- Get notified when a new ATIS is published
-- Clear the new ATIS notification for a station
-- Clear the new ATIS notification for all stations
+- See the current ATIS letter for a station.
+- See the current altimeter for a station.
+- See an indicator for the current flight rules following FAA or ICAO standards.
+- Get warned if the pressure falls below 29.92 InHg as a reminder that FL180 (or FL190) is unavailable.
+- Get notified when a new ATIS is published.
+- Clear the new ATIS notification for a station.
+- Clear the new ATIS notification for all stations.
 
 ## Prerequisites
 
@@ -63,19 +64,25 @@ To configure the action to show the ATIS for a specific station configure the fo
 
 By default the pressure displays in white. For pressure reported in InHg, if the value falls below 29.92 the value will show in red as a reminder that FL180 (or FL190, depending on the altimeter value) are unusable.
 
-If enabled the current FAA flight rules for the station will display in the top left:
+If enabled the current flight rules for the station will display in the top left, using either FAA or ICAO rules:
 
 {{<action-figures>}}
 
-{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" faaFlightRules="VFR" caption="VFR" >}}
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" faaFlightRules="VFR" caption="FAA VFR" >}}
 
-{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" faaFlightRules="MVFR" caption="MVFR" >}}
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" faaFlightRules="MVFR" caption="FAA MVFR" >}}
 
 </br>
 
-{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" faaFlightRules="IFR" caption="IFR" >}}
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" faaFlightRules="IFR" caption="FAA IFR" >}}
 
-{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" faaFlightRules="LIFR" caption="LIFR" >}}
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" faaFlightRules="LIFR" caption="FAA LIFR" >}}
+
+</br>
+
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" faaFlightRules="VFR" caption="ICAO VMC" >}}
+
+{{< action-figure src="vatis/atis-letter/template.svg.html" title="KPDX" isConnected="true" pressureValue="3012" isNewAtis="false" formattedValue="A3012" pressureUnit="MercuryInch" letter="C" faaFlightRules="IFR" caption="ICAO IMC" >}}
 
 {{</action-figures>}}
 
@@ -90,16 +97,16 @@ The action supports both short and long press.
 
 ## Settings reference
 
-| Setting                         | Description                                                                                                         | Required? |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------- | :-------: |
-| Title                           | The title to show on the action.                                                                                    |    No     |
-| Station                         | The name of the station you want to display status for.                                                             |    Yes    |
-| Type                            | The type of the station.                                                                                            |    Yes    |
-| Show FAA flight rules indicator | Shows an indicator in the top right for the current FAA flight rules based on ceiling and visibility. Default `on`. |    No     |
-| Current                         | The image to display when the ATIS letter shown is current.                                                         |    No     |
-| Observer                        | The image to display when the ATIS is published by a controller other than you.                                     |    No     |
-| Unavailable                     | The image to display when there is no connection to vATIS.                                                          |    No     |
-| Updated                         | The image to display when the ATIS letter updated to a new one.                                                     |    No     |
+| Setting      | Description                                                                                                      | Required? |
+| ------------ | ---------------------------------------------------------------------------------------------------------------- | :-------: |
+| Title        | The title to show on the action.                                                                                 |    No     |
+| Station      | The name of the station you want to display status for.                                                          |    Yes    |
+| Type         | The type of the station.                                                                                         |    Yes    |
+| Flight rules | Shows an indicator in the top right for the current flight rules based on ceiling and visibility. Default `FAA`. |    No     |
+| Current      | The image to display when the ATIS letter shown is current.                                                      |    No     |
+| Observer     | The image to display when the ATIS is published by a controller other than you.                                  |    No     |
+| Unavailable  | The image to display when there is no connection to vATIS.                                                       |    No     |
+| Updated      | The image to display when the ATIS letter updated to a new one.                                                  |    No     |
 
 The default display automatically includes the station name, ATIS letter, and altimeter. When specifying
 custom state images the following advanced settings can be used to display text on the action:
@@ -115,34 +122,47 @@ custom state images the following advanced settings can be used to display text 
 
 All state images support [SVG templates](../svg-templates/). The following variables are provided:
 
-| Variable           | Description                                                   |
-| ------------------ | ------------------------------------------------------------- |
-| altimeter          | The current altimeter.                                        |
-| connectionStatus   | The current station connection status.                        |
-| faaFlightRules     | The current FAA flight rules based on ceiling and visibility. |
-| isConnected        | True if the station is connected to VATSIM.                   |
-| isNewAtis          | True if the ATIS letter is new.                               |
-| letter             | The current ATIS letter.                                      |
-| pressure           | A pressure object with the altimeter details.                 |
-| showFaaFlightRules | True if the FAA flight rules should be shown.                 |
-| station            | The station name.                                             |
-| title              | The title specified by the user.                              |
-| wind               | The current wind.                                             |
+| Variable         | Description                                                    |
+| ---------------- | -------------------------------------------------------------- |
+| altimeter        | The current altimeter.                                         |
+| connectionStatus | The current station connection status.                         |
+| faaFlightRules   | The current FAA flight rules based on ceiling and visibility.  |
+| icaoFlightRules  | The current ICAO flight rules based on ceiling and visibility. |
+| isConnected      | True if the station is connected to VATSIM.                    |
+| isNewAtis        | True if the ATIS letter is new.                                |
+| letter           | The current ATIS letter.                                       |
+| pressure         | A pressure object with the altimeter details.                  |
+| showFlightRules  | The flight rules display setting.                              |
+| station          | The station name.                                              |
+| title            | The title specified by the user.                               |
+| wind             | The current wind.                                              |
 
-The connectionStatus values are:
+The `connectionStatus` values are:
 
 - Connected
 - Connecting
 - Disconnected
 - Observer
 
-The faaFlightRules values are:
+The `faaFlightRules` values are:
 
 - IFR
 - LIFR
 - MVFR
 - UNKNOWN
 - VFR
+
+The `icaoFlightRules` values are:
+
+- IMC
+- UNKNOWN
+- VMC
+
+The `showFlightRules` values are:
+
+- FAA
+- ICAO
+- NONE
 
 The pressure object contains the following properties:
 
