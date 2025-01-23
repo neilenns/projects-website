@@ -100,34 +100,37 @@ To save time when connecting to the network the station status action can be con
 
 ## Interactions
 
-| Interaction | Description                                                                                                 |
-| ----------- | ----------------------------------------------------------------------------------------------------------- |
-| Short press | Toggles the `Listen to` button in TrackAudio, or mutes the station audio if enabled in the action settings. |
-| Long press  | Refreshes the action's state, or mutes the station audio if enabled in the action settings.                 |
+| Interaction | Description                                                                                                       |
+| ----------- | ----------------------------------------------------------------------------------------------------------------- |
+| Short press | Toggles the `Listen to` button in TrackAudio, toggles mute, or toggles speaker, depending on the action settings. |
+| Long press  | Refreshes the action's state, toggles mute, or toggles speaker, depending on the action settings.                 |
 
 ## Settings reference
 
-| Setting                           | Description                                                                                                                                                                                                                                     | Required? |
-| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------: |
-| Title                             | The title to show on the action.                                                                                                                                                                                                                |    No     |
-| Callsign                          | The callsign for the station you want to display status for.                                                                                                                                                                                    |    Yes    |
-| Listen to                         | What status to display on the button, either RX, TX, or XCA. Default `RX`.                                                                                                                                                                      |    Yes    |
-| Last received callsigns           | Sets the number of unique last received callsigns to display, newest to oldest, and will age off after two minutes. Only supported when listen to is set to `RX` or `XCA`. If set to `0` no last received callsigns will be shown. Default `0`. |    Yes    |
-| Toggle mute on press              | Toggles mute for the station when the action is pressed instead of toggling the configured listen to button. Default `off`.                                                                                                                     |    Yes    |
-| Toggle mute on long press         | Toggles mute for the station when the action is long pressed instead of refreshing the action state. Default `off`.                                                                                                                             |    Yes    |
-| Active comms                      | The image to display when a transmission is actively taking place.                                                                                                                                                                              |    No     |
-| Blocked                           | The image to display when both an aircraft and the ATC position are transmitting at the same time.                                                                                                                                              |    No     |
-| Listening                         | The image to display when the station is active.                                                                                                                                                                                                |    No     |
-| Muted                             | The image to display when the station is muted.                                                                                                                                                                                                 |    No     |
-| Not listening                     | The image to display when the station is not currently active.                                                                                                                                                                                  |    No     |
-| Unavailable                       | The image to display when the station is not added in TrackAudio.                                                                                                                                                                               |    No     |
-| Automatically enable speaker mode | Enables speaker mode on the station after a TrackAudio voice connection is established. Default `off`.                                                                                                                                          |    Yes    |
-| Automatically set Rx mode         | Enables Rx mode on the station after a TrackAudio voice connection is established. Default `off`.                                                                                                                                               |    Yes    |
-| Show callsign                     | Show the callsign on the action. Default `off`.                                                                                                                                                                                                 |    Yes    |
-| Show frequency                    | Show the callsign's frequency on the action. Default `off`.                                                                                                                                                                                     |    Yes    |
-| Show listen to                    | Show the listen to value on the action. Default `off`.                                                                                                                                                                                          |    Yes    |
-| Show title                        | Show the title on the action. Default `on`.                                                                                                                                                                                                     |    Yes    |
-| Clear callsigns after (minutes)   | How long to leave callsigns displayed before they age off. Set to 0 to persist callsigns until they are pushed by newer callsigns. Default `2`.                                                                                                 |    Yes    |
+| Setting                      | Description                                                                                                                                                                                                                                     | Required? |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------: |
+| Title                        | The title to show on the action.                                                                                                                                                                                                                |    No     |
+| Callsign                     | The callsign for the station you want to display status for.                                                                                                                                                                                    |    Yes    |
+| Listen to                    | What status to display on the button, either RX, TX, or XCA. Default `RX`.                                                                                                                                                                      |    Yes    |
+| Last received callsigns      | Sets the number of unique last received callsigns to display, newest to oldest, and will age off after two minutes. Only supported when listen to is set to `RX` or `XCA`. If set to `0` no last received callsigns will be shown. Default `0`. |    Yes    |
+| Toggle mute on press         | Toggles mute for the station when the action is pressed instead of toggling the configured listen to button. Default `off`.                                                                                                                     |    Yes    |
+| Toggle mute on long press    | Toggles mute for the station when the action is long pressed instead of refreshing the action state. Default `off`.                                                                                                                             |    Yes    |
+| Toggle speaker on press      | Toggles speaker for the station when the action is pressed instead of toggling the configured listen to button. Default `off`.                                                                                                                  |    Yes    |
+| Toggle speaker on long press | Toggles speaker for the station when the action is long pressed instead of refreshing the action state. Default `off`.                                                                                                                          |    Yes    |
+
+| Active comms | The image to display when a transmission is actively taking place. | No |
+| Blocked | The image to display when both an aircraft and the ATC position are transmitting at the same time. | No |
+| Listening | The image to display when the station is active. | No |
+| Muted | The image to display when the station is muted. | No |
+| Not listening | The image to display when the station is not currently active. | No |
+| Unavailable | The image to display when the station is not added in TrackAudio. | No |
+| Automatically enable speaker mode | Enables speaker mode on the station after a TrackAudio voice connection is established. Default `off`. | Yes |
+| Automatically set Rx mode | Enables Rx mode on the station after a TrackAudio voice connection is established. Default `off`. | Yes |
+| Show callsign | Show the callsign on the action. Default `off`. | Yes |
+| Show frequency | Show the callsign's frequency on the action. Default `off`. | Yes |
+| Show listen to | Show the listen to value on the action. Default `off`. | Yes |
+| Show title | Show the title on the action. Default `on`. | Yes |
+| Clear callsigns after (minutes) | How long to leave callsigns displayed before they age off. Set to 0 to persist callsigns until they are pushed by newer callsigns. Default `2`. | Yes |
 
 ## SVG template variables
 
