@@ -16,6 +16,7 @@ The station status action displays the current status of a single station's butt
 - See the last received callsigns for a station.
 - See the frequency of a station.
 - Toggle mute on a station.
+- Toggle speaker/headset mode on a station.
 - Automatically add a station to TrackAudio when it connects.
 - Automatically enable speaker (SPK) mode on a station when TrackAudio connects.
 - Automatically enable receive (RX) mode on a station when TrackAudio connects.
