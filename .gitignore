@@ -3,3 +3,6 @@ public/
 resources/
 .hugo_build.lock
 site.zip
+
+# Node modules
+node_modules/
