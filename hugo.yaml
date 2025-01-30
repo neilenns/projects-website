@@ -50,5 +50,5 @@ params:
     base: "https://github.com/neilenns/projects-website/edit/main/content"
 
   versions:
-    trackaudio: "v4.1.0"
+    trackaudio: "v4.2.0"
     vATIS: "v1.2.2"
