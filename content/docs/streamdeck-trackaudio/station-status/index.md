@@ -16,6 +16,7 @@ The station status action displays the current status of a single station's butt
 - See the last received callsigns for a station.
 - See the frequency of a station.
 - Toggle mute on a station.
+- Toggle speaker/headset mode on a station.
 - Automatically add a station to TrackAudio when it connects.
 - Automatically enable speaker (SPK) mode on a station when TrackAudio connects.
 - Automatically enable receive (RX) mode on a station when TrackAudio connects.
@@ -100,10 +101,10 @@ To save time when connecting to the network the station status action can be con
 
 ## Interactions
 
-| Interaction | Description                                                                                                 |
-| ----------- | ----------------------------------------------------------------------------------------------------------- |
-| Short press | Toggles the `Listen to` button in TrackAudio, or mutes the station audio if enabled in the action settings. |
-| Long press  | Refreshes the action's state, or mutes the station audio if enabled in the action settings.                 |
+| Interaction | Description                                                                                                       |
+| ----------- | ----------------------------------------------------------------------------------------------------------------- |
+| Short press | Toggles the `Listen to` button in TrackAudio, toggles mute, or toggles speaker, depending on the action settings. |
+| Long press  | Refreshes the action's state, toggles mute, or toggles speaker, depending on the action settings.                 |
 
 ## Settings reference
 
@@ -115,6 +116,8 @@ To save time when connecting to the network the station status action can be con
 | Last received callsigns           | Sets the number of unique last received callsigns to display, newest to oldest, and will age off after two minutes. Only supported when listen to is set to `RX` or `XCA`. If set to `0` no last received callsigns will be shown. Default `0`. |    Yes    |
 | Toggle mute on press              | Toggles mute for the station when the action is pressed instead of toggling the configured listen to button. Default `off`.                                                                                                                     |    Yes    |
 | Toggle mute on long press         | Toggles mute for the station when the action is long pressed instead of refreshing the action state. Default `off`.                                                                                                                             |    Yes    |
+| Toggle speaker on press           | Toggles speaker for the station when the action is pressed instead of toggling the configured listen to button. Default `off`.                                                                                                                  |    Yes    |
+| Toggle speaker on long press      | Toggles speaker for the station when the action is long pressed instead of refreshing the action state. Default `off`.                                                                                                                          |    Yes    |
 | Active comms                      | The image to display when a transmission is actively taking place.                                                                                                                                                                              |    No     |
 | Blocked                           | The image to display when both an aircraft and the ATC position are transmitting at the same time.                                                                                                                                              |    No     |
 | Listening                         | The image to display when the station is active.                                                                                                                                                                                                |    No     |

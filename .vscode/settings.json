@@ -2,10 +2,18 @@
   "files.exclude": {
     ".hugo_build.lock": true,
     "public/": true,
-    "resources/": true
+    "resources/": true,
+    "package*.json": true
   },
   "files.associations": {
     "*.svg.html": "plaintext"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".gitignore": ".gitattributes, .hugoignore",
+    "hugo.yaml": ".markdownlint.json, go.mod, go.sum, .coderabbit.yml, .prettierrc.json, netlify.toml",
+    "eslint.config.js": ".markdownlint.jsonc",
+    "README.md": "DEVELOPMENT.md"
   },
   "[markdown]": {
     "editor.quickSuggestions": {
