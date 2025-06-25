@@ -57,13 +57,15 @@ the station. This action requires a dial control, available on the [Stream Deck 
 
 ### Settings reference
 
-| Setting       | Description                                                                              | Required? |
-| ------------- | ---------------------------------------------------------------------------------------- | :-------: |
-| Callsign      | The callsign for the station you want to control the volume of, for example `PDX_O_TWR`. |    Yes    |
-| Change amount | The size of volume change to make on each click of the knob. Default `2`.                |    Yes    |
-| Muted         | The image to display when the station is muted in TrackAudio.                            |    No     |
-| Not muted     | The image to display when the station is not muted in TrackAudio.                        |    No     |
-| Unavailable   | The image to display when the station is not added in TrackAudio.                        |    No     |
+| Setting             | Description                                                                                                             | Required? |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------- | :-------: |
+| Callsign            | The callsign for the station you want to control the volume of, for example `PDX_O_TWR`.                                |    Yes    |
+| Change amount       | The size of volume change to make on each click of the knob. Default `2`.                                               |    Yes    |
+| Muted               | The image to display when the station is muted in TrackAudio.                                                           |    No     |
+| Not muted           | The image to display when the station is not muted in TrackAudio.                                                       |    No     |
+| Unavailable         | The image to display when the station is not added in TrackAudio.                                                       |    No     |
+| Push to toggle mute | When enabled, a short press on the dial will toggle mute. When disabled, a short press will do nothing. Default `true`. |    No     |
+| Tap to toggle mute  | When enabled, a tap on the display will toggle mute. When disabled, a tap will do nothing. Default `true`.              |    No     |
 
 ## SVG template variables
 
