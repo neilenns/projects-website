@@ -7,7 +7,10 @@ og_image: ogimage/streamdeck-trackaudio.png
 {{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}
 
 > [!IMPORTANT]
-> This plugin requires [TrackAudio beta 1.3.0-beta.5](https://github.com/pierr3/TrackAudio/releases/latest) or later. It will not work with earlier versions of TrackAudio.
+> CRC is removing support for external audio applications on October 15, 2025. From that date, TrackAudio
+> will no longer work for US-based controllers, making this plug-in useless for people using CRC. If
+> you are outside of the US, TrackAudio will continue to work as before and you can continue using
+> this plug-in.
 
 This Stream Deck plugin provides actions to interact with TrackAudio.
 
