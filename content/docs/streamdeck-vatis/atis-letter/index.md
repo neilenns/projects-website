@@ -2,7 +2,8 @@
 title: ATIS letter
 description: Displays the current ATIS letter for a station from vATIS on Stream Deck keys
 next: vatis-status
-og_image: ogimage/streamdeck-vatis.png
+images:
+  - ogimage/streamdeck-vatis.png
 ---
 
 {{< get-button url="https://marketplace.elgato.com/product/vatis-878fcd1a-7e0a-4d6e-bd36-c70b075573ea" title="Get from marketplace" >}}

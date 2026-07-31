@@ -1,10 +1,11 @@
 ---
 title: Main volume
 description: Controls app volume in TrackAudio with Stream Deck dials
-og_image: ogimage/streamdeck-trackaudio.png
 prev: /docs/streamdeck-trackaudio/hotline
 next: /docs/streamdeck-trackaudio/push-to-talk
 weight: 30
+images:
+  - ogimage/streamdeck-trackaudio.png
 ---
 
 {{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}

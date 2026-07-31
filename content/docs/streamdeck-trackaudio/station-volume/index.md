@@ -1,10 +1,11 @@
 ---
 title: Station volume
 description: Controls station volume in TrackAudio with Stream Deck dials
-og_image: ogimage/streamdeck-trackaudio.png
 prev: /docs/streamdeck-trackaudio/station-status
 next: /docs/streamdeck-trackaudio/trackaudio-status
 weight: 60
+images:
+  - ogimage/streamdeck-trackaudio.png
 ---
 
 {{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}

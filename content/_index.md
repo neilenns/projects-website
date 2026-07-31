@@ -9,6 +9,7 @@ description: Documentation for various Stream Deck and PowerToys Run plugins
 {{< cards >}}
 {{< card link="docs/streamdeck-trackaudio" title="TrackAudio" image="card-images/trackaudio-card.png" subtitle="Control TrackAudio with your Stream Deck" icon="book-open">}}
 {{< card link="docs/streamdeck-vatis" image="card-images/vatis-card.png" title="vATIS" subtitle="Control vATIS with your Stream Deck" icon="book-open" >}}
+{{< card link="docs/streamdeck-vatsim-radar" title="VATSIM Radar" image="card-images/vatsim-radar-card.png" subtitle="Control VATSIM Radar with your Stream Deck" icon="book-open">}}
 {{< /cards >}}
 
 ## PowerToys Run plugins
