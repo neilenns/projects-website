@@ -4,7 +4,7 @@ description: Information on how to use SVG templates with TrackAudio actions
 sidebar:
   exclude: true
 images:
-	- ogimage/streamdeck-vatis.png
+  - ogimage/streamdeck-vatis.png
 ---
 
 All image properties on all actions support using SVG templates instead of a standard SVG image. The templates use [Handlebars](https://handlebarsjs.com/) for placeholders and enables using the same SVG image across multiple action.

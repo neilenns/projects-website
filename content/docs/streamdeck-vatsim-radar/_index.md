@@ -11,7 +11,7 @@ images:
 > [!IMPORTANT]
 > This plugin requires the [VATSIM Radar desktop app (version TBD)](https://vatsim-radar.com/download) or later.
 
-![Stream Deck NEO with VATSIM Radar bookmark actions for KPDX, KSEA, KGEG, and KBLI on the top row. The bottom row has dashboard actions for SEA GND, SEA TWR, P80, and SEA CTR.](example.png)
+![Stream Deck NEO with VATSIM Radar bookmark actions for KPDX, KSEA, KGEG, and KBLI on the top row. The bottom row has dashboard actions for SEA GND, SEA TWR, S16, and SEA CTR.](example.png)
 
 This Stream Deck plugin provides actions to interact with [VATSIM Radar](https://www.vatsim-radar.com/) running on your local machine.
 

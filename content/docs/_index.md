@@ -10,6 +10,7 @@ Documentation for various projects I've written.
 {{< cards >}}
 {{< card link="streamdeck-trackaudio" title="TrackAudio" subtitle="Actions for controlling TrackAudio with your Stream Deck" icon="book-open">}}
 {{< card link="streamdeck-vatis" title="vATIS" subtitle="Actions for controlling vATIS with your Stream Deck" icon="book-open" >}}
+{{< card link="streamdeck-vatsim-radar" title="VATSIM Radar" subtitle="Actions for controlling VATSIM Radar with your Stream Deck" icon="book-open" >}}
 {{< /cards >}}
 
 ## PowerToys Run plugins
