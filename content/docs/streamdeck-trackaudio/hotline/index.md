@@ -1,10 +1,11 @@
 ---
 title: Hotline
 description: Toggles transmit between two stations in TrackAudio with Stream Deck keys
-og_image: ogimage/streamdeck-trackaudio.png
 prev: /docs/streamdeck-trackaudio/atis-letter
 next: /docs/streamdeck-trackaudio/push-to-talk
 weight: 20
+images:
+  - ogimage/streamdeck-trackaudio.png
 ---
 
 {{< get-button url="https://marketplace.elgato.com/product/trackaudio-e913a0ca-4c12-411d-a5a6-acf5f6c4bdea" title="Get from marketplace" >}}
