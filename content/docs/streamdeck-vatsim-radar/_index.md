@@ -6,10 +6,10 @@ images:
   - ogimage/streamdeck-vatsim-radar.png
 ---
 
-{{< get-button url="https://marketplace.elgato.com/product/vatis-878fcd1a-7e0a-4d6e-bd36-c70b075573ea" title="Get from marketplace" >}}
+<!-- {{< get-button url="https://marketplace.elgato.com/product/vatis-878fcd1a-7e0a-4d6e-bd36-c70b075573ea" title="Get from marketplace" >}} -->
 
 > [!IMPORTANT]
-> This plugin requires the [VATSIM Radar desktop app (version TBD)](https://vatsim-radar.com/download) or later.
+> This plugin requires the [VATSIM Radar (next) desktop app](https://next.vatsim-radar.com/download).
 
 ![Stream Deck NEO with VATSIM Radar bookmark actions for KPDX, KSEA, KGEG, and KBLI on the top row. The bottom row has dashboard actions for SEA GND, SEA TWR, S16, and SEA CTR.](example.png)
 
