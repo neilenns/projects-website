@@ -6,7 +6,7 @@ images:
   - ogimage/streamdeck-vatsim-radar.png
 ---
 
-<!-- {{< get-button url="https://marketplace.elgato.com/product/vatis-878fcd1a-7e0a-4d6e-bd36-c70b075573ea" title="Get from marketplace" >}} -->
+{{< get-button url="https://marketplace.elgato.com/product/vatsim-radar-560ea8e3-05f5-45d1-93ca-1793bd6b7311" title="Get from marketplace" >}}
 
 > [!IMPORTANT]
 > This plugin requires the [VATSIM Radar (next) desktop app](https://next.vatsim-radar.com/download).
