@@ -12,7 +12,7 @@ The activate bookmark action opens a bookmark configured in VATSIM Radar.
 
 ## Prerequisites
 
-To use this action you must have the [VATSIM Radar (next) desktop app](https://next.vatsim-radar.com/download) running.
+To use this action you must have the [VATSIM Radar desktop app](https://www.vatsim-radar.com/download) running.
 
 ## Basic configuration
 
